@@ -49,7 +49,7 @@ jobs:
           METHOD: sftp
           PORT: ${{ secrets.FTP_PORT }}
           LOCAL_DIR: ./.vitepress/dist
-          REMOTE_DIR: /srv/www/tumo-docs-temp
+          REMOTE_DIR: /srv/www/tumo-docs
           ARGS: --delete --verbose --parallel=80
 
   push-to-gh-page:
@@ -62,7 +62,7 @@ jobs:
       - name: Sed Config Base
         shell: bash
         run: |
-          sed -i  's/doc-next/tumo-docs-temp/g' ./.vitepress/config.js
+          sed -i  's/doc-next/tumo-docs/g' ./.vitepress/config.js
 
       - name: use Node.js 14
         uses: actions/setup-node@v2.1.2

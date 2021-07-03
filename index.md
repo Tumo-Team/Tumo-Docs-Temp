@@ -5,7 +5,7 @@ actionText: 快速开始 →
 actionLink: /head1/side1/f1
 
 altActionText: 在线预览
-altActionLink: https://github.com/Tumo-Team/Tumo-Cloud
+altActionLink: https://github.com/Tumo-Team/tumo-cloud
 
 features:
   - title: 💡 后端技术栈
