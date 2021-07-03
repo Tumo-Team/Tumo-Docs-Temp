@@ -1,5 +1,7 @@
 # Tumo 文档模板
 
+> 基于 [https://github.com/anncwb/vue-vben-admin-doc](https://github.com/anncwb/vue-vben-admin-doc)
+
 ## 修改文档配置
 
 编辑 `.vitepress/config.js`
