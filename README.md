@@ -6,7 +6,7 @@
 
 编辑 `.vitepress/config.js`
 
-在线预览：[]()
+在线预览：[https://tumo-team.github.io/tumo-docs/](https://tumo-team.github.io/tumo-docs/)
 
 ### 修改路由菜单
 
