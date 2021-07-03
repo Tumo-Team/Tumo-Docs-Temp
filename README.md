@@ -6,6 +6,8 @@
 
 编辑 `.vitepress/config.js`
 
+在线预览
+
 ### 修改路由菜单
 
 ```js
