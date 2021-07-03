@@ -62,7 +62,7 @@ jobs:
       - name: Sed Config Base
         shell: bash
         run: |
-          sed -i  's/tumo-docs/tumo-docs/g' ./.vitepress/config.js
+          sed -i  's/docs/tumo-docs/g' ./.vitepress/config.js
 
       - name: use Node.js 14
         uses: actions/setup-node@v2.1.2

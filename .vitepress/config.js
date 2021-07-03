@@ -3,7 +3,7 @@
  * @type {import('vitepress').UserConfig}
  */
 module.exports = {
-  base: '/tumo-docs',
+  base: '/docs',
   title: 'Tumo Docs',
   lang: 'zh-CN',
   description: 'Tumo Docs Template',
