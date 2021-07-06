@@ -57,11 +57,11 @@ function createSidebar() {
 
 ```bash
 # 克隆本仓库
-$ git clone https://github.com/Tumo-Team/Tumo-Docs-Temp
+$ git clone https://github.com/Tumo-Team/tumo-docs.git
 
-# 或者使用 yarn
+# 安装依赖，或者用npm install
 $ yarn install
 
-# 启动开发服务器
+# 启动开发服务器，或者用npm run dev
 $ yarn dev
 ```
